@@ -1,10 +1,11 @@
+import { Button } from '@mui/material'
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 export const AppRoutes = () => {
 
     return (
         <Routes>
-            <Route path='/page-initial' element={<button>teste</button>} />
+            <Route path='/page-initial' element={<Button variant='contained' color='primary' >Testando</Button> } />
 
             <Route path='*' element={<Navigate to="/page-initial" />} /> 
             {/** Navigate serve como redirect, o redirect foi descontinuado em versões mais recentes
