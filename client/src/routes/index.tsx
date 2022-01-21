@@ -4,7 +4,7 @@ export const AppRoutes = () => {
 
     return (
         <Routes>
-            <Route path='/page-initial' element={<p>Page initial</p>} />
+            <Route path='/page-initial' element={<button>teste</button>} />
 
             <Route path='*' element={<Navigate to="/page-initial" />} /> 
             {/** Navigate serve como redirect, o redirect foi descontinuado em versões mais recentes

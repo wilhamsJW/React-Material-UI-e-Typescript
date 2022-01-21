@@ -8,6 +8,22 @@ In the project directory, you can run:
 
 ### `npm start`
 
+### Install Material UI
+
+[Site Oficial com a instalação](https://mui.com/pt/getting-started/installation/)
+
+# usando npm
+`npm install @mui/material @emotion/react @emotion/styled`
+
+# usando yarn
+`yarn add @mui/material @emotion/react @emotion/styled`
+
+(Entre na doc e veja q instalei a fonte roboto, ícones fonte e svg e outras coisas q está no link acima da doc)
+
+
+
+==============================================================================
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
