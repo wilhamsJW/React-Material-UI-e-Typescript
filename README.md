@@ -15,7 +15,8 @@
 ### Install Eslint
 
 [Site Oficial](https://eslint.org/docs/user-guide/getting-started)
-`npx eslint --init`
+
+Comando a ser executado: `npx eslint --init`
 
 Algumas perguntas devem ser respondidas durante a instalação do eslint
 responda dessa forma da foto:
