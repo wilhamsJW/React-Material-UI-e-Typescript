@@ -20,6 +20,15 @@ In the project directory, you can run:
 
 (Entre na doc e veja q instalei a fonte roboto, ícones fonte e svg e outras coisas q está no link acima da doc)
 
+### Install Eslint
+
+[Site Oficial](https://eslint.org/docs/user-guide/getting-started)
+`npx eslint --init`
+
+Algumas perguntas devem ser respondidas durante a instalação do eslint
+responda dessa forma da foto:
+
+<img align='center' src='/public/perguntas_install_eslint.png' />
 
 
 ==============================================================================
