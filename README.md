@@ -1,21 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+# Descrição do Projeto: ?
 
 ### Install Material UI
 
 [Site Oficial com a instalação](https://mui.com/pt/getting-started/installation/)
 
-# usando npm
+### usando npm
 `npm install @mui/material @emotion/react @emotion/styled`
 
-# usando yarn
+### usando yarn
 `yarn add @mui/material @emotion/react @emotion/styled`
 
 (Entre na doc e veja q instalei a fonte roboto, ícones fonte e svg e outras coisas q está no link acima da doc)
