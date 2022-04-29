@@ -12,6 +12,9 @@
 
 (Entre na doc e veja q instalei a fonte roboto, ícones fonte e svg e outras coisas q está no link acima da doc)
 
+### Rodar o Projeto
+``yarn start`
+
 ### Install Eslint
 
 [Site Oficial](https://eslint.org/docs/user-guide/getting-started)

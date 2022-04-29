@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import { AppThemeProvider } from './shared/contexts'
+import { AppThemeProvider, DrawerProvider } from './shared/contexts'
 import { AppRoutes } from './routes'
 import { MenuSide } from './shared/components';
 
@@ -7,14 +7,13 @@ import { MenuSide } from './shared/components';
 function App() {
   return (
     <AppThemeProvider>
-      <BrowserRouter>
-
-        <MenuSide>
-          <AppRoutes />
-        </MenuSide>
-        
-
-      </BrowserRouter>
+      <DrawerProvider>
+        <BrowserRouter>
+          <MenuSide>
+            <AppRoutes />
+          </MenuSide>
+        </BrowserRouter>
+      </DrawerProvider>
     </AppThemeProvider>
   );
 }

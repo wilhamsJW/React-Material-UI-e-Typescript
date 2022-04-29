@@ -17,7 +17,8 @@ interface IThemeContextData {
 }
 
 const ThemeContext = createContext({} as IThemeContextData);
-// createContext --> Estamos criando um contexto como o nome suger. Usado para quando queremos passar uma var em nível global, aqui queremos trocar o tema da aplicação por um botão, então a cor do tema tem que ser algo a nível global
+// createContext --> Estamos criando um contexto como o nome suger. Usado para quando queremos passar uma var em nível global, aqui queremos trocar o tema 
+// da aplicação por um botão, então a cor do tema tem que ser algo a nível global
 // const ThemeContext = createContext({} as IThemeContextData); sobre essa linha eu tõ dizendo que
 // createContext tem os dados da IThemeContextData
 
